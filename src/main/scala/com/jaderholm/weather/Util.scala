@@ -15,5 +15,5 @@ object Util {
     inner(coll.head, coll.tail, Seq(Seq(coll.head)))
   }
 
-  val clearLine = "\033[2K\n"
+  val clearLine = "\u001b[2K\n"
 }
